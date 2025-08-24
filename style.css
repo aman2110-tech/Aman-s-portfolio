@@ -51,7 +51,7 @@ margin-left: 1.5rem;
 }
 .nav-button:hover{
     opacity: 1;
-    border: 1px white solid;
+    
     border-radius: 10px;
     padding: 7px;
 }
@@ -70,6 +70,7 @@ font-family:libre baskerville, sans-serif;
     justify-content: space-evenly;
     height:700px;
     width: 100%;
+    align-items: center;
   
 
 }
@@ -78,7 +79,7 @@ font-family:libre baskerville, sans-serif;
     padding-bottom: 15px;
 }
 .home-pic{
-    height:40rem;
+    height:30rem;
     width: 100%;
     border-radius: 50%;
     
@@ -86,6 +87,7 @@ font-family:libre baskerville, sans-serif;
 .home-text{
     margin: 2rem;
     margin-top: 8rem;
+    margin-bottom: 14rem;
 }
 p{
     font-family:Roboto ;
@@ -123,15 +125,15 @@ h1{
 }
 
 .web-dev,.web-design{
-    height:15.62rem;
-    width:25rem;
+    height:16rem;
+    width:100%;
    
     padding: 1rem;
     border-radius: 1rem;
     margin: 2rem;
     background: transparent;
     backdrop-filter: blur(30px);
-     border: 0.2px white solid;
+    
 
 }
 
@@ -150,6 +152,7 @@ height:18.75rem;
    align-items: center;
     
 }
+
 .skill-text{
     font-size: 3rem;
   font-weight: bold;
@@ -210,7 +213,7 @@ height:18.75rem;
     background: transparent;
     backdrop-filter: blur(30px);
     color: white;
-    border: 0.2px white solid;
+   
     
 }
 .information{
@@ -295,7 +298,8 @@ height:18.75rem;
     .home-text{ display: flex;
         flex-direction: column;
        align-items: center;
-       margin-top: 10px;
+       margin-bottom: 2rem;
+       
 
     }
     .form2{
@@ -351,6 +355,7 @@ height:18.75rem;
     }
     .web-design,.web-dev{
         width: 19.37rem;
+        height: 100%
     }
     #java{
       width: 40px;
@@ -364,6 +369,7 @@ height:18.75rem;
     width: 100%;
     margin-top: 18.75rem;
     margin-top: 23.12rem;
+   
 }
 .images{
     display: flex;
@@ -390,35 +396,36 @@ height:18.75rem;
 }
 }
 
-.web-design:hover{
-    height:16.87rem;
-    width:26.25rem;
+.web-design:hover{  
      box-shadow: 3px 3px rgb(102, 99, 99);
-     transition-delay: 1s;
-      transition: 0.6s;
-    transition-delay: 0.6s;
+    
+    transition-delay: 0.2s;
+     border: 0.2px white solid;
    
 }
 .web-dev:hover{
-    height:16.87rem;;
-    width:26.25;
-    box-shadow: 3px 3px rgb(93, 92, 92);
-     transition: 0.6s;
-    transition-delay: 0.6s;
+   box-shadow: 3px 3px rgb(102, 99, 99);
+    
+    transition-delay: 0.2s;
+     border: 0.2px white solid;
 }
 .logo:hover{
      height: 4rem;
-     width: 11rem;
+     width: 10.5rem;
      
    transition: 0.6s;
     transition-delay: 0.6s;
     box-shadow: 3px 3px rgb(102, 99, 99);
+    
+     border: 0.2px solid white;
 }
+
 
 .card:hover{
     box-shadow: 3px 3px rgb(102, 99, 99);
-    transition: 0.6s;
-    transition-delay: 0.6s;
+    
+    transition-delay: 0.2s;
+     border: 0.2px white solid;
 }
 
 .container{
