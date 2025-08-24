@@ -366,6 +366,11 @@ height:18.75rem;
 .clones{
     flex-direction: column;
 }
+.items{
+    width: 7.8rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
 
 }
 
