@@ -126,7 +126,7 @@ h1{
 
 .web-dev,.web-design{
     height:16rem;
-    width:100%;
+    width:25rem;
    
     padding: 1rem;
     border-radius: 1rem;
@@ -432,3 +432,4 @@ height:18.75rem;
     color: white;
     margin-top: 50px;
 }
+
