@@ -18,14 +18,14 @@
         <div class="nav-logo">A.M</div>
         <div class="nav-links"><ul id="nav-bu">
              <li class="nav-items"><a href="#home" class="nav-button">Home</a></li>
-             <li class="nav-items"> <a href="#web-dev"class="nav-button">About</a></li>
+             
               <li class="nav-items"><a href="#skill" class="nav-button">skills</a></li>
               <li class="nav-items"><a href="#projects" class="nav-button">Projects</a></li>
               <li class="nav-items"><a href="#contact" class="nav-button">Contact</a></li>
             </ul>
     </div>
    </div>
- <div class="home">
+ <div class="home" id="home">
     <div class="home-text">
      <h1 class="wel">WELCOME</h1>
      <h1 class="name">Aman Manhas</h1>
@@ -37,76 +37,91 @@
     </div>
  </div>
 
- <div class="services" id="services">
-    <h2 class="ser">Services</h2>
-    <div class="services-info">
-    <div class="web-dev">
-        <h3 class="web-icon">Website Devlopment</h3>
-        <p> I create websites based on your ready - made design. Wheather it's a landing page or a Buisness card website, I will make it look great and work smoothly on any device. </p>
-    </div>
-    <div class="web-design">
-        <h3>Website Design</h3>
-        <p> I can design your website from scratch . I create modern, simple, and user-friendly designs that match your brand and goals. </p>
-    </div>
-    </div>
- </div>
 
- <div class="skills">
+
+ <div class="skills" id="skill">
     
     <h2> Skills</h2>
     
-    <div class="images">
-        <div class="logo" >
-            <img src="html-5-removebg-preview.png" class="lo" id="html"><p>HTML</p>
-        </div>
-        <div class="logo" >
-              <img src="css-3-removebg-preview.png"class="lo" id="css"><p>CSS</p>
-        </div>
-        <div class="logo">
-             <img src="456-4562295_library-of-javascript-icon-graphic-freeuse-png-files-removebg-preview (2).png"class="lo" id="java">
-            <p>JavaScript</p>
-            </div>
-        <div class="logo">
-             <img src="OIP-removebg-preview.png"class="lo"><p>Bootstrap</p>
-        </div>
-        
+    
+   <div class="container">
+  <div class="row ">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-6 d-flex align-items-center align-items-center items">
+      <img src="html-5-removebg-preview.png" alt="HTML logo" class="lo" id="html">
+      <p>HTML</p>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6  d-flex align-items-center align-items-center items">
+      <img src="css-3-removebg-preview.png" alt="CSS logo" class="lo" id="css">
+      <p>CSS</p>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 d-flex align-items-center align-items-center items">
+      <img src="456-4562295_library-of-javascript-icon-graphic-freeuse-png-files-removebg-preview (2).png" alt="JavaScript logo" class="lo" id="java">
+      <p>JavaScript</p>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 d-flex align-items-center align-items-center items">
+      <img src="OIP-removebg-preview.png" alt="Bootstrap logo" class="lo">
+      <p>Bootstrap</p>
+    </div>
+  </div>
+
+  <div class="row mt-3 ">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 d-flex align-items-center align-items-center items">
+      <img src="figma-removebg-preview.png" alt="Figma logo" class="lo" id="figma">
+      <p>Figma</p>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 d-flex align-items-center align-items-center items">
+      <img src="git-removebg-preview.png" alt="Git logo" class="lo">
+      <p>Git</p>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 d-flex align-items-center align-items-center items">
+      <img src="github_logo-removebg-preview.png" alt="GitHub logo" class="lo">
+      <p>GitHub</p>
+    </div>
+  </div>
+</div>
+
       
        
        
     </div>
  </div>
 
-   <div class="project">
+   <div class="project" id="projects">
     <div class="pro">
      <h2>Projects</h2 >
     </div>
-     <div class="clones">
+     <div class="clones row">
 
-  <div class="card" style="width: 18rem;">
+  <div class="card lg-3 md-5 sm-10" style="width: 20rem; height:30rem">
   <img src="Screenshot 2025-08-24 141722.png" class="project-img">
   <div class="card-body">
-    <h5 class="card-title">Movie website Clone</h5>
-    <p> This is a project done by me .With pure HTML and CSS and Javascript</p>
+    <h5 class="card-title">🎬 Movie Website Clone</h5>
+    <p> A responsive movie website clone built with HTML, CSS, and JavaScript, featuring banners, movie cards, and hover effects. It highlights my skills in creating modern, user-friendly web layouts.</p>
     <a href="https://aman2110-tech.github.io/movie-website/" class="btn btn-light">Click Me</a>
   </div>
 </div>
 
-   <div class="card" style="width: 18rem;">
+   <div class="card lg-3 md-5 sm-10" style="width: 18rem;">
   <img src="Screenshot 2025-08-24 144530.png" class="project-img">
   <div class="card-body">
-    <h5 class="card-title">Dice Game </h5>
-    <p> This is a project done by me .With pure HTML and CSS and Javascript</p>
+    <h5 class="card-title">🎲 Dice Game (JavaScript)</h5>
+    <p>A fun two-player dice game made with JavaScript, where dice rolls decide the winner. This project demonstrates my knowledge of DOM manipulation and interactive game logic.</p>
     <a href="https://aman2110-tech.github.io/Dice-Game/" class="btn btn-light">Click Me</a>
   </div>
 </div>
 
 
 
-   <div class="card" style="width: 18rem;">
+   <div class="card lg-3 md-5 sm-10" style="width: 18rem;">
   <img src="Screenshot 2025-08-24 141816.png" class="project-img">
   <div class="card-body">
-    <h5 class="card-title">SmartPhone website Clone</h5>
-    <p> This is a project done by me .With pure HTML and CSS </p>
+    <h5 class="card-title">📱 Smartphone Website Clone</h5>
+    <p> A clone of a smartphone brand’s official site using HTML, CSS, and Bootstrap. It showcases product sections, smooth navigation, and a fully responsive design for all devices.</p>
     <a href="https://aman2110-tech.github.io/smartphones/" class="btn btn-light">Click Me</a>
   </div>
 </div>
@@ -117,7 +132,7 @@
    </div>
 
 
-   <div class="information">
+   <div class="information" id="contact">
     <h2 >For More information</h2>
     <div class="info-holder">
       <form action="action">
@@ -164,5 +179,5 @@
   </footer>
 </div>
 </body>
->>>>>>> 71beb9d ( add new project)
+
 </html>
